@@ -1,0 +1,159 @@
+
+body{
+    font-family:heveltica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+#principal{
+    margin:auto;
+    
+}
+.logohotmart{
+    width: 150px;
+    margin-left:10px;
+    margin-top:0
+}
+
+.header-topo{
+    height:80px;
+   position:relative;
+ }
+.header-nav{
+    position:absolute;
+    top:0;
+    right:20px;
+    height: 100%;
+}  
+.header-nav li{
+    list-style:none;
+    display: inline-block;
+    padding: 13px;
+   
+}
+.header-nav ul{
+    margin:0;
+    padding:12px 20px 0 0;
+    
+
+}
+.header-nav a{
+    text-decoration:none;
+    color:#747272;
+    text-transform:normal;
+    font-weight: bold;
+    transition: color .2s linear;
+   
+    
+}
+.header-nav a:hover{
+    color:orangered;
+    
+}
+.btn{
+    background-color: white;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid rgb(241, 137, 99);
+
+   
+}
+.centralajuda{
+   padding-right:600px
+}
+.imgmaos{
+    width:40%;
+    height:100%;
+    margin-left:42px;
+    background-size: 200px;
+    margin-top:10px;
+}
+.maincont{
+    background-color:rgb(241, 137, 99);
+    width:40%;
+    height:458px;
+    display:inline;
+    position:absolute;
+    border:10px solid rgb(241, 137, 99);
+    border-radius:15px;
+
+   
+}
+.maincont h1{
+    text-align:left;
+    font-size:40px;
+    padding-top:40px;
+    padding-left:50px;
+    color:white;
+    
+}
+.maincont p {
+    text-align:left;
+    font-size:23px;
+    padding-left:50px;
+    color:rgb(238, 235, 235)
+
+}
+
+h2{
+    text-align:left;
+    margin:120px 0 0 20px;
+
+}
+
+.curse-section{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    width:100%;
+    gap:5px;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+}
+.curse-tittle{
+    width:18%;
+    margin-left:38em;
+    margin-bottom:5em;
+}
+.curse-section img{
+    width:150px;
+    height:150px;
+    border:5px solid rgb(241, 137, 99);
+    border-radius:20px;
+}
+.curse-section img:hover{
+    border-color: rgb(255, 255, 255);
+
+}
+h2{
+    font-size:30px;
+    color:white;
+    border:3px solid rgb(241, 137, 99);
+    border-radius:5px;
+    background-color:rgb(241, 137, 99);
+    text-align:left
+}
+h3{
+    color:rgb(241, 137, 99);
+    font-size:25px;   
+
+}
+p{
+    font-size:15px;
+    line-height:20px;
+    margin-right:100px;
+    color:#747272;
+}
+.rodape{
+    background-color:rgb(241, 137, 99);
+    letter-spacing:8px;
+    padding:20px;
+    width:100%;
+    box-sizing:border-box;
+    text-align:center;
+    font-size:15px;
+    color:white
+}
